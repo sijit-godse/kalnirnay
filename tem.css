@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 50PX;
+    width: 100%;
+    background-color: aqua;
+    color: black;
+    text-align: end;
+    border-inline:block;
+    list-style-type: none;
+    position: sticky;
+
+    }
+    .container{
+        height: 200px;
+        width: 100px;
+        background-color: antiquewhite;
+    }
+    .main{
+        height: 300px;
+        width: 100px;
+        background-color: antiquewhite;
+        gap: 10px;
+    }
+  
+    .mean{
+        height: 200px;
+        width: 100px;
+        background-color: antiquewhite;
+    }
+  
+    
