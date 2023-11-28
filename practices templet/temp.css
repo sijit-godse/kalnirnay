@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    border: 2px solid black;
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+.frist{
+    width: 100%;
+    border: 2px solid black;
+    background-color: white; 
+    padding: 15px;
+    display: block;
+    text-align: center;
+    list-style-type: none;
+}
+.second{
+    width: 100%;
+    height: 500px;
+    color: black;
+    background-color: antiquewhite;
+    background-image: url(https://media.istockphoto.com/id/1284549946/photo/digital-marketing-concept-online-advertisement.jpg?b=1&s=612x612&w=0&k=20&c=AjXPuQ0EwRbNc3D4i8g-J1T4mlwM-CijYs9YAwyNQIY=);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+}
+.third{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    background-color: ghostwhite;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+.four{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    background-color: ghostwhite;
+    display: inline-block;
+}
+.five{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    background-color: ghostwhite;
+    display: inline-block;
+}
+.six{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    background-color: ghostwhite;
+    display: inline-block;
+
+}
+ul li{
+    display:inline;
+    text-align:end;
+    list-style-type: none; 
+    font-family: sans-serif;
+    font-weight: 20px;
+    text-decoration:none ;
+}
+.seven{
+     width: 49%;
+     height: 400px;
+     background-color:bisque ;
+     margin-top: 10px;
+     margin-left: 10px;
+     display: inline-block;
+    
+}
+.eight{
+    width: 49%;
+    height: 400px;
+    background-color:antiquewhite ;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+ img{
+    height: 399px;
+    width: 615px;
+}
+.night{
+    width: 100%;
+    height: 500px;
+    background-color: aquamarine;
+}
+ h1{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}

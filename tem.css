@@ -10,27 +10,32 @@ header{
     background-color: aqua;
     color: black;
     text-align: end;
-    border-inline:block;
+    display: inline;
     list-style-type: none;
     position: sticky;
+    
 
     }
     .container{
         height: 200px;
         width: 100px;
         background-color: antiquewhite;
+        border: 2px solid brown;
+        column-gap: 10px;
     }
     .main{
         height: 300px;
         width: 100px;
         background-color: antiquewhite;
-        gap: 10px;
+        border: 2px solid black;
     }
   
     .mean{
         height: 200px;
         width: 100px;
         background-color: antiquewhite;
+        border: 2px solid brown;
+
     }
   
     
