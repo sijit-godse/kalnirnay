@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+.bmw{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    border-radius: 100%;
+} 
+.b{
+    position: absolute;
+    color: red;
+    font-size: 55px;
+    transform: rotate(320deg);
+    top: 30px;
+    left: 20px;
+}
+.m{
+    position: absolute;
+    color: blue;
+    top: 44px;
+    left: 15%;
+    transform: rotate(310deg);
+    font-size: 65px;
+}
+.w{
+    position: absolute;
+    color: beige;
+    top: 5px;
+    left: 40%;
+    font-size: 65px;
+}
+.inner-cirlce{
+    position: relative;
+    width: 60%;
+    height: 60%;
+    border-radius: 100%;
+    background-color: #fff;
+    top: 20%;
+    left: 20%;
+}
+.s1{
+    right: 0;
+    top: 0;
+    position: absolute;
+    height: 47%;
+    width: 47%;
+    color: aqua;
+    border-radius: 100% 0 0 0;
+}
+.s2{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    height: 47%;
+    width: 47%;
+    color: aqua;
+    border-radius: 0 100% 0 0;
+}
+.s3{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    height: 47%;
+    width: 47%;
+    color: aqua;
+    border-radius: 0 0 0 100%;
+}
+.s4{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    height: 47%;
+    width: 47%;
+    color: darkgray;
+    border-radius: 0 0 100% 0;
+}
