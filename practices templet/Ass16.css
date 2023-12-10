@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+header ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+header a{
+    color: #fff;
+}
+#logo{
+    margin: o auto;
+    font-size: 30px;
+}
+#menu li{
+    padding: 10px;
+}
+#social-link li{
+    padding: 10px;
+}
+.services-container{
+    display: flex;
+}
